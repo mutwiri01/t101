@@ -1,3 +1,4 @@
+import logo from "../assets/lf.jpg";
 const Footer = () => {
   return (
     <footer className="mt-20 border-t py-10 border-neutral-700">
@@ -17,11 +18,7 @@ const Footer = () => {
           </p>
         </div>
         <div className="flex justify-center lg:justify-end">
-          <img
-            src="/src/assets/lf.jpg" // Replace with your image path
-            alt="Footer Image"
-            className="w-24 h-auto lg:w-32 mx-auto lg:mx-0" // Center the image with mx-auto
-          />
+          <img className="hw-24 h-auto lg:w-32 mx-auto lg:mx-0" src={logo} alt="Logo" />
         </div>
       </div>
     </footer>
